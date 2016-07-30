@@ -1,0 +1,10 @@
+
+We made a modification on the basis of the Spark source code.
+
+1.Add core\src\main\java\org\apache\spark\prediction\...
+2.Add core\src\main\scala\org\apache\spark\prediction\...
+3.Motify core\src\main\scala\org\apache\spark\scheduler\DAGScheduler.scala
+4.Motify core\src\main\scala\org\apache\spark\scheduler\TaskSchedulerImpl.scala
+5.Motify core\src\main\scala\org\apache\spark\scheduler\TaskSetManager.scala
+6.Motify core\src\main\scala\org\apache\spark\scheduler\cluster\CoarseGrainedSchedulerBackend.scala
+7.Motify core\src\main\scala\org\apache\spark\scheduler\SchedulingMode.scala
